@@ -13,20 +13,28 @@ public class TexturasCores
         Config.HEIGHT = int.Parse(Console.ReadLine());
         */
         Buffer buffer = new Buffer();
-        buffer.Clear(0);
-        filename = "DegradeLinhaRed";
-        buffer.DegradeLinha(0);
-        buffer.Save(filename);
+
+
+        // buffer.Clear(0);
+        // filename = "DegradeLinhaRed";
+        // buffer.DegradeLinha(0);
+        // buffer.Save(filename);
+
+        // buffer.Clear(0);
+        // filename = "DegradeLinhaGreen";
+        // buffer.DegradeLinha(1);
+        // buffer.Save(filename);
+
+        // buffer.Clear(0);
+        // filename = "DegradeLinhaBlue";
+        // buffer.DegradeLinha(2);
+        // buffer.Save(filename);
 
         buffer.Clear(0);
-        filename = "DegradeLinhaGreen";
-        buffer.DegradeLinha(1);
+        filename = "DegradeFaixas";
+        buffer.DegradeFaixas();
         buffer.Save(filename);
 
-        buffer.Clear(0);
-        filename = "DegradeLinhaBlue";
-        buffer.DegradeLinha(2);
-        buffer.Save(filename);
     }
 }
 class Config
@@ -105,6 +113,27 @@ public class Buffer
 
 
 
+            }
+        }
+    }
+    public void DegradeFaixas()
+    {
+        Random rnd = new Random();
+        Vector3 cor2 = new Vector3(Config.MAXCOLORS, Config.MAXCOLORS, Config.MAXCOLORS);
+        for (int h = 0; h < Config.HEIGHT; h++)
+        {
+            Vector3 cor1 = new Vector3(0, 0, 0);
+            float fator = (float)rnd.NextDouble();
+            while (fator > 0.01) fator = (float)rnd.NextDouble();
+            for (int w = 0; w < Config.WIDTH / 3; w++)
+            {
+                int cor = (int)(((float)3 * w / (float)Config.WIDTH) * (float)Config.MAXCOLORS);
+                Vector3 seq = Vector3.Lerp(cor1, cor2, fator);
+                cor1 = seq;
+                SetPixel(3 * w, h, cor);
+                cor = (int)cor1.X;
+                SetPixel(3 * w + 1, h, cor);
+                SetPixel(3 * w + 2, h, cor);
             }
         }
     }
