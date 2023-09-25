@@ -1,0 +1,15 @@
+/home/eric/projects/ColorfulTexturesCS/bin/Debug/net7.0/ColorfulTexturesCS
+/home/eric/projects/ColorfulTexturesCS/bin/Debug/net7.0/ColorfulTexturesCS.deps.json
+/home/eric/projects/ColorfulTexturesCS/bin/Debug/net7.0/ColorfulTexturesCS.runtimeconfig.json
+/home/eric/projects/ColorfulTexturesCS/bin/Debug/net7.0/ColorfulTexturesCS.dll
+/home/eric/projects/ColorfulTexturesCS/bin/Debug/net7.0/ColorfulTexturesCS.pdb
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.csproj.AssemblyReference.cache
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.GeneratedMSBuildEditorConfig.editorconfig
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.AssemblyInfoInputs.cache
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.AssemblyInfo.cs
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.csproj.CoreCompileInputs.cache
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.dll
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/refint/ColorfulTexturesCS.dll
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.pdb
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ColorfulTexturesCS.genruntimeconfig.cache
+/home/eric/projects/ColorfulTexturesCS/obj/Debug/net7.0/ref/ColorfulTexturesCS.dll

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/eric/projects/ColorfulTexturesCS/ColorfulTexturesCS.csproj": {}
+  },
+  "projects": {
+    "/home/eric/projects/ColorfulTexturesCS/ColorfulTexturesCS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/eric/projects/ColorfulTexturesCS/ColorfulTexturesCS.csproj",
+        "projectName": "ColorfulTexturesCS",
+        "projectPath": "/home/eric/projects/ColorfulTexturesCS/ColorfulTexturesCS.csproj",
+        "packagesPath": "/home/eric/.nuget/packages/",
+        "outputPath": "/home/eric/projects/ColorfulTexturesCS/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/eric/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
